@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@astrojs/rss", "npm:2.4.2"],\
             ["astro", "virtual:b2890ebe34094dc3c182fd86f9e807ce29059db2a4fd992cf6cb15633595589fae9c41af1e9d725fe498626221ca1c536d4f341fc56b84451a48b0f4914bfbd4#npm:2.4.4"]\
           ],\
           "linkType": "SOFT"\
@@ -116,6 +117,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@astrojs/prism", "npm:2.1.1"],\
             ["prismjs", "npm:1.29.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@astrojs/rss", [\
+        ["npm:2.4.2", {\
+          "packageLocation": "./.yarn/cache/@astrojs-rss-npm-2.4.2-4c59cdd606-2979c523e2.zip/node_modules/@astrojs/rss/",\
+          "packageDependencies": [\
+            ["@astrojs/rss", "npm:2.4.2"],\
+            ["fast-xml-parser", "npm:4.2.2"],\
+            ["kleur", "npm:4.1.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2109,6 +2121,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["fast-xml-parser", [\
+        ["npm:4.2.2", {\
+          "packageLocation": "./.yarn/cache/fast-xml-parser-npm-4.2.2-3696e5f2bb-f0e687927d.zip/node_modules/fast-xml-parser/",\
+          "packageDependencies": [\
+            ["fast-xml-parser", "npm:4.2.2"],\
+            ["strnum", "npm:1.0.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["fastq", [\
         ["npm:1.15.0", {\
           "packageLocation": "./.yarn/cache/fastq-npm-1.15.0-1013f6514e-0170e6bfcd.zip/node_modules/fastq/",\
@@ -2965,6 +2987,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["magenta-moon", "workspace:."],\
+            ["@astrojs/rss", "npm:2.4.2"],\
             ["astro", "virtual:b2890ebe34094dc3c182fd86f9e807ce29059db2a4fd992cf6cb15633595589fae9c41af1e9d725fe498626221ca1c536d4f341fc56b84451a48b0f4914bfbd4#npm:2.4.4"]\
           ],\
           "linkType": "SOFT"\
@@ -4780,6 +4803,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/strip-final-newline-npm-3.0.0-7972cbec8b-23ee263adf.zip/node_modules/strip-final-newline/",\
           "packageDependencies": [\
             ["strip-final-newline", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["strnum", [\
+        ["npm:1.0.5", {\
+          "packageLocation": "./.yarn/cache/strnum-npm-1.0.5-9ba11d2a0a-651b2031db.zip/node_modules/strnum/",\
+          "packageDependencies": [\
+            ["strnum", "npm:1.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\
